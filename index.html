@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Portfolio</h1>
+
+<button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+<nav id="nav-menu">
+  <a href="#home" onclick="closeMenu()">Home</a>
+  <a href="#about" onclick="closeMenu()">About</a>
+  <a href="#projects" onclick="closeMenu()">Projects</a>
+  <a href="#contact" onclick="closeMenu()">Contact</a>
+</nav>
+    </header>
+
+    <main>
+        <section id="home">
+<h2>
+  <span id="typing-text"></span>
+</h2>
+            <p>Welcome to my personal portfolio. I am learning HTML, CSS and JavaScript.</p>
+            <a href="#projects">View My Projects</a>
+<button onclick="showWelcome()">Say Hello</button>
+
+<button onclick="toggleTheme()">Change Theme</button>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>My name is Suleiman. I am passionate about technology and web development.</p>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <article>
+                <h3>My First Website</h3>
+                <p>A simple website built using HTML.</p>
+            </article>
+            <article>
+                <h3>My Second Project</h3>
+                <p>More exciting projects coming soon!</p>
+            </article>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: osuleiman356@gmail.com.</p>
+            <a href="mailto: osuleiman356@gmail.com">Send Me an Email</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Personal Portfolio.</p>
+        <p>Built with HTML.</p>
+    </footer>
+    <div id="fire-cursor"></div>
+<script src="script.js"></script>
+</body>
+</html>
