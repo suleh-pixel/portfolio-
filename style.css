@@ -546,3 +546,59 @@ footer {
     color: white;
     transform: translateY(-4px);
 }
+
+/* ===== CONTACT SECTION UPGRADE ===== */
+
+#contact {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+#contact h2 {
+    color: #38BDF8;
+    font-size: 2.3rem;
+    margin-bottom: 15px;
+}
+
+#contact p {
+    color: #CBD5E1;
+    margin-bottom: 25px;
+}
+
+#contact form {
+    background: #14213A;
+    border: 1px solid #2563EB;
+    border-radius: 18px;
+    padding: 25px;
+    max-width: 550px;
+    margin: 25px auto;
+    box-shadow: 0 0 20px rgba(56, 189, 248, 0.12);
+}
+
+#contact input,
+#contact textarea {
+    background: #0B1120;
+    color: #FFFFFF;
+    border: 1px solid #334155;
+    border-radius: 9px;
+    padding: 13px;
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+    border-color: #38BDF8;
+    outline: none;
+    box-shadow: 0 0 10px rgba(56, 189, 248, 0.25);
+}
+
+#contact button {
+    width: 100%;
+    border-radius: 30px;
+    padding: 14px;
+    margin-top: 15px;
+    background: #0284C7;
+    box-shadow: 0 0 15px rgba(56, 189, 248, 0.3);
+}
