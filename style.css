@@ -466,3 +466,39 @@ footer {
         0 0 10px #38BDF8,
         0 0 25px rgba(56, 189, 248, 0.6);
 }
+
+/* ===== PROFESSIONAL PROJECT CARDS ===== */
+
+#projects {
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+}
+
+#projects .project,
+#projects .project-card,
+#projects .card {
+    background: linear-gradient(145deg, #14213A, #0F1B30);
+    border: 1px solid #2563EB;
+    border-radius: 18px;
+    padding: 25px;
+    margin: 25px auto;
+    max-width: 650px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease;
+}
+
+#projects .project:hover,
+#projects .project-card:hover,
+#projects .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 25px rgba(56, 189, 248, 0.3);
+    border-color: #38BDF8;
+}
+
+#projects h3 {
+    color: #38BDF8;
+}
