@@ -502,3 +502,47 @@ footer {
 #projects h3 {
     color: #38BDF8;
 }
+
+/* ===== ABOUT SECTION UPGRADE ===== */
+
+#about {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+#about h2 {
+    font-size: 2.3rem;
+    color: #38BDF8;
+    margin-bottom: 25px;
+}
+
+#about h3 {
+    color: #38BDF8;
+    margin-top: 25px;
+}
+
+#about p {
+    max-width: 700px;
+    margin: 15px auto;
+    line-height: 1.8;
+    color: #CBD5E1;
+}
+
+#about .skill,
+#about .skills span {
+    display: inline-block;
+    background: #14213A;
+    color: #38BDF8;
+    border: 1px solid #2563EB;
+    border-radius: 10px;
+    padding: 10px 18px;
+    margin: 7px;
+    transition: 0.3s ease;
+}
+
+#about .skill:hover,
+#about .skills span:hover {
+    background: #0284C7;
+    color: white;
+    transform: translateY(-4px);
+}
