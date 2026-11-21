@@ -449,3 +449,20 @@ footer {
     border-radius: 30px;
     box-shadow: 0 0 18px rgba(56, 189, 248, 0.35);
 }
+
+/* BRIGHT BLUE GLOW EFFECT */
+
+#home h2 {
+    color: #38BDF8;
+    text-shadow:
+        0 0 5px #38BDF8,
+        0 0 15px #0EA5E9,
+        0 0 30px #0284C7,
+        0 0 45px #0284C7;
+}
+
+#home button {
+    box-shadow:
+        0 0 10px #38BDF8,
+        0 0 25px rgba(56, 189, 248, 0.6);
+}
